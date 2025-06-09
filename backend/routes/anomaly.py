@@ -1,3 +1,4 @@
+# AI logic: train and detect anomalies using IsolationForest.
 # routes/anomaly.py
 from flask import Blueprint, request, jsonify
 from sklearn.ensemble import IsolationForest

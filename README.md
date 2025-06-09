@@ -1,1 +1,2 @@
-# AI-Anomaly-Detector
+# Project README
+Setup instructions...

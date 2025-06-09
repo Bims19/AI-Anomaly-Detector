@@ -1,1 +1,39 @@
+#Install dependencies
 pip install flask flask-cors scikit-learn numpy
+
+# Run the backend server
+
+python backend/app.py
+
+# Frontend
+# 1. Navigate to the frontend folder:
+# bash
+
+cd frontend
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the frontend
+# bash
+
+npm start
+
+Notes
+The backend uses dummy transaction data for demo purposes; connect to a real DB in production.
+
+The frontend component AnomalyDetectionPanel calls the backend anomaly detection endpoint and displays flagged transactions.
+
+Adjust CORS and proxy settings as needed for your environment.
+
+# yami
+
+
+---
+
+**Once you paste all these files into your local repo and extract the zip contents for other UI files, you can:**
+
+```bash
+git add .
+git commit -m "Full AI anomaly detection + referral integration"
+git push --force origin main
